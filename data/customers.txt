@@ -1,0 +1,2 @@
+C1|VIP|Nguyen Van A|0901234567|Hanoi
+C2|Regular|Tran B New|0911222333|Saigon

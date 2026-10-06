@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clothing Sales Management System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand">👕 <span>Clothing Store</span></div>
+    <nav id="nav">
+      <button class="nav-btn active" data-tab="products">🧺 Sản phẩm</button>
+      <button class="nav-btn" data-tab="customers">👥 Khách hàng</button>
+      <button class="nav-btn" data-tab="sales">🧾 Bán hàng</button>
+      <button class="nav-btn" data-tab="inventory">📦 Kho hàng</button>
+      <button class="nav-btn" data-tab="reports">📊 Báo cáo</button>
+    </nav>
+    <div class="sidebar-footer">Java · Web UI</div>
+  </aside>
+  <main id="main"></main>
+</div>
+
+<div id="modal-backdrop" class="hidden">
+  <div id="modal" role="dialog">
+    <div class="modal-header">
+      <h3 id="modal-title"></h3>
+      <button class="icon-btn" onclick="closeModal()">✕</button>
+    </div>
+    <div id="modal-body"></div>
+    <div class="modal-footer" id="modal-footer"></div>
+  </div>
+</div>
+
+<div id="toast"></div>
+<script src="app.js"></script>
+</body>
+</html>
