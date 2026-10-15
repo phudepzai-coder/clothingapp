@@ -1,0 +1,3 @@
+C01|VIP|Nguyen Van An|0901234567|Ho Chi Minh City
+C02|Regular|Tran Thi Hoa|0987654321|Ha Noi
+C03|Regular|Le Van Minh|0912345678|Da Nang
