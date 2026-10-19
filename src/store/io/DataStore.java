@@ -13,8 +13,7 @@ import store.service.SalesService;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.nio.file.Path;    
 
 public class DataStore {
     private final Path dataDir;
